@@ -6,8 +6,6 @@ eureka:
     enabled: true
     service-url:
       defaultZone: https://jm-eureka.azurewebsites.net/eureka
-    healthcheck:
-      enabled: true
   
   instance:
     hostname: jm-service-a.azurewebsites.net
