@@ -5,6 +5,5 @@ spring:
   cloud:
     config:
       enabled: true
-      uri:
-      - https://jm-config.azurewebsites.net
+      uri: https://jm-config.azurewebsites.net
       label: config-settings
