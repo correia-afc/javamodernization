@@ -4,5 +4,4 @@ spring:
       server:
         git:
           uri: https://github.com/correia-afc/javamodernization.git
-      label: config-settings
-          
+      
