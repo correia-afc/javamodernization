@@ -12,9 +12,3 @@ eureka:
     service-url:
       defaultZone: https://jm-eureka.azurewebsites.net/eureka
     register-with-eureka: false
-eureka:
-  client:
-    enabled: true
-    service-url:
-      defaultZone: https://jm-eureka.azurewebsites.net/eureka
- 
