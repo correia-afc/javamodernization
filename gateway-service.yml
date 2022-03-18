@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+
+eureka:
+  client:
+    enabled: true
+    service-url:
+      defaultZone: https://jm-eureka.azurewebsites.net/eureka
+    register-with-eureka: false
+eureka:
+  client:
+    enabled: true
+    service-url:
+      defaultZone: https://jm-eureka.azurewebsites.net/eureka
+ 
