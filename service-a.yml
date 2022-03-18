@@ -6,3 +6,11 @@ eureka:
     enabled: true
     service-url:
       defaultZone: https://jm-eureka.azurewebsites.net/eureka
+    healthcheck:
+      enabled: true
+  
+  instance:
+    hostname: jm-service-a.azurewebsites.net
+    appname: ${spring.application.name}
+    lease-expiration-duration-in-seconds: 10
+    lease-renewal-interval-in-seconds: 5
