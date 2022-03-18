@@ -1,2 +1,8 @@
 # Config setting for service-a
 message: Hello from Service A
+
+eureka:
+  client:
+    enabled: true
+    service-url:
+      defaultZone: https://jm-eureka.azurewebsites.net/eureka
