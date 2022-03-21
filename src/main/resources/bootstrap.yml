@@ -6,15 +6,3 @@ spring:
             enabled: true
             uri: https://jm-config.azurewebsites.net
             label: config-settings
-
-eureka:
-  client:
-    enabled: true
-    service-url:
-      defaultZone: https://jm-eureka.azurewebsites.net/eureka
-  
-  instance:
-    hostname: jm-service-b.azurewebsites.net
-    appname: ${spring.application.name}
-    lease-expiration-duration-in-seconds: 10
-    lease-renewal-interval-in-seconds: 5
